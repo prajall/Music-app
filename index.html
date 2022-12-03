@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMusic - Your favourite music app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="m-0 p-0 ">
+    <div class="nav flex justify-center m-4 p-3 items-center rounded-lg">
+        <!-- <img src=" logo.png" style="width:40px; height:40px"> -->
+        <h1 class="m-3 text-xl md:text-2xl lg:text-3xl tracking-widest text-white">MyMusic - Your favourite Music App
+        </h1>
+        <!-- <p class="quote  text-center text-md lg:text-5xl m-2 text-white">Your Favourite Music App</p> -->
+    </div>
+    <div class="container  rounded-lg m-auto mb-7">
+
+        <div class="input-field w-fit mx-auto flex justify-center relative">
+            <input id="searchInput" type="text"
+                class="rounded-full text-white bg-blue-200/50 shadow-lg focus:outline-none w-96 h-10 p-4"
+                placeholder="Search Songs">
+            <button id="searchButton" type="submit" onclick="searchSong()"
+                class="absolute top-1 right-1 text-blue-100 hover:text-blue-50 cursor-pointer p-1 px-3 rounded-full text-md hover:bg-blue-200/50">Search</button>
+        </div>
+    </div>
+    <div id="song-container" class="px-4 mt-11">
+
+        <!-- <div
+            class="music sm:w-3/4 md:w-2/3 lg:w-1/2 mx-auto m-4 p-4 rounded-2xl bg-stone-50/20 flex justify-between align-center">
+            <div class="detail flex items-center">
+                <img src="http://api.deezer.com/album/345328/image" class="w-16 h-16 rounded-md">
+                <div>
+                    <p class="song-title mx-4 text-cyan-50 text-xl tracking-wider ">Music</p>
+                    <p class="artist mx-4 text-cyan-200 text-xs">Madonna</p>
+                </div>
+            </div>
+            <div class="play items-center flex">
+                <audio controls class="bg-none">
+                    <source src="http://cdn-preview-7.deezer.com/stream/c-78370ace21ddf0e1be1038bd0dfa97c0-5.mp3">
+                </audio>
+            </div>
+
+        </div> -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
