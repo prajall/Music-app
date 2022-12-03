@@ -25,7 +25,7 @@ function showSongs(song) {
       </div>  
     </div>
     <div class="play items-center flex">
-      <audio controls>
+      <audio controls >
         <source src = '${data.preview}'>
       </audio>
     </div>`;
